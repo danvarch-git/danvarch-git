@@ -1,0 +1,37 @@
+[
+  {
+    "place": "Costa Rica",
+    "tittle": "Scenario #1",
+    "description": "Find location by setting Place Name = ",
+    "assertion": "(9.748917, -83.753426)",
+    "tag": "positive"
+  },
+  {
+    "place": "Turbequistan",
+    "tittle": "Scenario #2",
+    "description": "Negative search using as input ",
+    "errorMsg": "No place found.",
+    "tag": "negative"
+  },
+  {
+    "place": "London",
+    "tittle": "Scenario #3",
+    "description": "Find location by setting Place Name = ",
+    "assertion": "(51.507351, -0.127758)",
+    "tag": "positive"
+  },
+  {
+    "place": "Turku, Finland",
+    "tittle": "Scenario #4",
+    "description": "Find location by setting Place Name = ",
+    "assertion": "(60.451462, 22.268829)",
+    "tag": "positive"
+  },
+  {
+    "place": "Testsfdfsfssdbdf  Gggggbdbdvdf",
+    "tittle": "Scenario #5",
+    "description": "Negative search using as input ",
+    "errorMsg": "No place found.",
+    "tag": "negative"
+  }
+]
